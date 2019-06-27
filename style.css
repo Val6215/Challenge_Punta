@@ -1,0 +1,75 @@
+.btnwrapper{
+  display:flex;
+  justify-content: space-around;
+  margin-left: 25%;
+  padding-top: 10%;
+  height: 50px;
+  width: 50%;
+}
+.game {
+  background-color:#ddd;
+  height: 600px;
+  width: 600px;
+  margin: 20px auto;
+  position: relative;
+}
+.cercle{
+height: 80px;
+width: 80px;
+top:100px;
+left:100px;
+background-color:red;
+border-radius:50%;
+}
+.boulenoire{
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top:100px;
+  left:100px;
+  background-color:black;
+  border-radius:50%;
+  }
+.carre{
+  /*display:none;*/
+  
+  height: 100px;
+  width: 100px;
+}
+/* .triangle{
+  width: 0;
+  height:0;
+  background-color:blue;
+  border-top: 18px solid transparent;
+  border-bottom: 18px solid transparent;
+  border-left: 30px;
+} */
+.losange {
+     position: absolute;
+    height: 40px;
+    width: 35px;
+    top:100px;
+    left:100px;
+    background: yellow;
+    -ms-transform: rotate(45deg); /* Internet Explorer */
+    -moz-transform: rotate(45deg); /* Firefox */
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+    -o-transform: rotate(45deg); /* Opera */
+}
+.green{
+background-color: green;
+}
+.red{
+background-color: red;
+}
+.blue{
+background-color: blue;
+
+}
+.yellow{
+background-color: yellow;
+
+}
+.black{
+  background-color: black;
+}
